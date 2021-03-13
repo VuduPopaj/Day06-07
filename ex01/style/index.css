@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+
+.column1 {
+    float: left;
+  width: 30%;
+  padding: 5px;
+  
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2 {
+    float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row2::after {
+    content: "";
+  clear: both;
+  display: table;
+}
+
+.column3 {
+    float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row3::after {
+    content: "";
+  clear: both;
+  display: table;
+}
